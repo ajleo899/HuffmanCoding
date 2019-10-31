@@ -102,7 +102,8 @@ public class HuffmanTree {
 	 */
 	public String decode(String encodedMessage) {
 		if(root.getLeftChild() == null && root.getRightChild() == null) {
-			encodedMessage.replaceAll("0", root.getValue());
+			encodedMessage = encodedMessage.replaceAll("0", root.getValue());
+			return encodedMessage;
 		}
 		else {
 			traverseTree(root, "");
