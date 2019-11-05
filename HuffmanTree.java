@@ -29,7 +29,7 @@ public class HuffmanTree {
 		PriorityQueue<TreeNode> minHeap = new PriorityQueue<TreeNode>(size, new Comparator<TreeNode>() {
 			@Override
 			public int compare(TreeNode o1, TreeNode o2) {
-				return o1.getFrequency() - o2.getFrequency();
+				return o1.getFrequency() - o2.getFrequency();	// change made here
 			}
 		});
 
