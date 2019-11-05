@@ -1,9 +1,3 @@
-/**
- * Adit Jain (aj27923)
- * EE360C Lab 2 - Huffman Coding
- * Dr. David Soloveichik, TTH 5:00-6:30
- */
-
 import java.util.*;
 
 public class HuffmanTree {
